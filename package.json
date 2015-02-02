@@ -1,0 +1,24 @@
+{
+  "name": "batch-qr",
+  "version": "0.0.0",
+  "description": "make a bunch of qr pngs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "qrpng": "latest",
+    "vcards-js": "latest",
+    "csv": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loop-recur/batch-qr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loop-recur/batch-qr/issues"
+  },
+  "homepage": "https://github.com/loop-recur/batch-qr"
+}
