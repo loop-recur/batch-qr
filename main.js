@@ -9,8 +9,8 @@ fs.readFile('names.csv', 'utf8', function (err,data) {
   parse(data, {}, function (err, people) {
     R.forEachIndexed(function (p, i) {
       var card = v();
-      card.firstName = p[0];
-      card.lastName = p[1];
+      card.lastName = p[0];
+      card.firstName = p[1];
       card.email = p[2];
 
       console.log(p);
