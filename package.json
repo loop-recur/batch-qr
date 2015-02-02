@@ -9,7 +9,8 @@
   "dependencies": {
     "qrpng": "latest",
     "vcards-js": "latest",
-    "csv-parse": "latest"
+    "csv-parse": "latest",
+    "ramda": "latest"
   },
   "repository": {
     "type": "git",
